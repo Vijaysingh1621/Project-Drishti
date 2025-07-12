@@ -110,8 +110,8 @@ const MetricsChart = () => {
 
             <div className="flex items-center justify-between">
               <span className="text-sm text-muted-foreground">Response Efficiency</span>
-              <div className="flex items-center gap-2">
-                <span className="font-bold text-lg">{liveMetrics.responseEfficiency}%</span>
+              <div className="flex items-center gap-2 overflow-hidden break-words">
+                <span className="font-bold text-lg">{Number(liveMetrics.responseEfficiency).toFixed(2)}%</span>
                 <TrendingUp className="h-4 w-4 text-green-500" />
               </div>
             </div>

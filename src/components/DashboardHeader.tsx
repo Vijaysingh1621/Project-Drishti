@@ -24,7 +24,7 @@ const DashboardHeader = () => {
   };
 
   return (
-    <div className="w-full">
+    <div className="w-full mt-[50px]">
       <div className="flex items-center justify-between mb-4">
         <div>
           <h1 className="text-2xl font-semibold text-gray-900 tracking-tight">Project Drishti</h1>
